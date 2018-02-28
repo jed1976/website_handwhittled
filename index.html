@@ -1,73 +1,225 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
-	<title>Hand Whittled, LLC</title>
-	<style>
-		html {
-			height:100%;
-		}
-		body {
-			margin:0;
-			height:100%;
-		}
-	</style>
-	<!-- copy these lines to your document head: -->
-
-	<meta name="viewport" content="user-scalable=yes, width=device-width" />
-	
-	
-    <link rel="apple-touch-icon" sizes="57x57" href="Default.hyperesources/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="Default.hyperesources/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="Default.hyperesources/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="Default.hyperesources/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="Default.hyperesources/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="Default.hyperesources/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="Default.hyperesources/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="Default.hyperesources/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="Default.hyperesources/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="Default.hyperesources/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Default.hyperesources/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="Default.hyperesources/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Default.hyperesources/favicon-16x16.png">
-    <link rel="manifest" href="Default.hyperesources/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="Default.hyperesources/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <meta name="google-site-verification" content="cqrBjwR1LQ0klJi1JZBKKY5klmKNpb5xWrnyvxKrxkA" />
-
-	<!-- end copy -->
+		<title>Hand Whittled</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+		<meta name="viewport" content="user-scalable=yes, width=device-width">
+		<meta name="google-site-verification" content="cqrBjwR1LQ0klJi1JZBKKY5klmKNpb5xWrnyvxKrxkA">
+		<link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#302c88">
+		<meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+		<meta name="theme-color" content="#302c88">
+		<link href="/css/tachyons.css" rel="stylesheet">
+		<link href="/css/site.css" rel="stylesheet">
   </head>
-  <body>
-	<!-- copy these lines to your document: -->
+  <body class="bg-dark-purple din dark-purple">
+		<a class="bottom-2 fixed grow right-2 z-9999" href="#" id="scroll-top">
+			<img alt="Hand Whittled logo" class="pointer-events-none w3" src="/images/logo.svg">
+		</a>
 
-	<div id="default_hype_container" style="margin:auto;position:relative;width:100%;height:100%;overflow:hidden;" aria-live="polite">
-	</div>
+		<main>
+			<section class="b--red bb bw2 mb0 sticky top-0" id="home">
+				<div class="center flex items-center justify-center vh-100 w-two-thirds">
+					<span class="nt3 relative w-50-ns w-two-thirds" id="logo">
+						<img alt="Scroll to top" class="w-100" src="/images/logo.svg">
+					</span>
+				</div>
+			</section>
 
-	<!-- end copy -->
-	<script type="text/javascript" charset="utf-8">
-		//	HYPE.documents["Default"]
+			<section class="b--red bb bg-gray bt bw2 relative z-1" id="contact">
+				<div class="center flex flex-column items-start justify-center min-vh-100 mw6 mw7-l ph4 pv5 pv6-ns">
+					<h1 class="aptifer f-subheadline-l f1-m f2 lh-title mt3 mb3">Hand Whittled</h1>
+					<h2 class="f2-l f3 fw4 mb5 mt0">Design, Development &amp; Sound</h2>
 
-(function(){(function k(){function l(a,b,d){var c=!1;null==window[a]&&(null==window[b]?(window[b]=[],window[b].push(k),a=document.getElementsByTagName("head")[0],b=document.createElement("script"),c=h,false==!0&&(c=""),b.type="text/javascript",b.src=c+"/"+d,a.appendChild(b)):window[b].push(k),c=!0);return c}var h="Default.hyperesources",c="Default",e="default_hype_container";if(false==!1)try{for(var f=document.getElementsByTagName("script"),
-a=0;a<f.length;a++){var b=f[a].src;if(null!=b&&-1!=b.indexOf("default_hype_generated_script.js")){h=b.substr(0,b.lastIndexOf("/"));break}}}catch(n){}if(false==!1&&(a=navigator.userAgent.match(/MSIE (\d+\.\d+)/),a=parseFloat(a&&a[1])||null,a=l("HYPE_526","HYPE_dtl_526",!0==(null!=a&&10>a||false==!0)?"HYPE-526.full.min.js":"HYPE-526.thin.min.js"),false==!0&&(a=a||l("HYPE_w_526","HYPE_wdtl_526","HYPE-526.waypoints.min.js")),a))return;
-f=window.HYPE.documents;if(null!=f[c]){b=1;a=c;do c=""+a+"-"+b++;while(null!=f[c]);for(var d=document.getElementsByTagName("div"),b=!1,a=0;a<d.length;a++)if(d[a].id==e&&null==d[a].getAttribute("HYP_dn")){var b=1,g=e;do e=""+g+"-"+b++;while(null!=document.getElementById(e));d[a].id=e;b=!0;break}if(!1==b)return}b=[];b=[{name:"init",source:"function(hypeDocument, element, event) {\tvar colors = [\"#e9d600\", \"#f09403\", \"#df3713\", \"#9e4fa2\"];\n    var color = colors[Math.floor(Math.random() * colors.length)];\n    hypeDocument.getElementById(hypeDocument.documentId()).style.backgroundColor = color;\n}",identifier:"58"}];d={};g={};for(a=0;a<b.length;a++)try{g[b[a].identifier]=b[a].name,d[b[a].name]=eval("(function(){return "+b[a].source+"})();")}catch(m){window.console&&window.console.log(m),
-d[b[a].name]=function(){}}a=new HYPE_526(c,e,{"25":{p:1,n:"ms-icon-70x70.jpg",g:"83",o:true,t:"@1x"},"18":{p:1,n:"apple-icon-precomposed.png",g:"76",t:"@1x"},"10":{p:1,n:"apple-icon-60x60.jpg",g:"68",o:true,t:"@1x"},"26":{p:1,n:"ms-icon-144x144.jpg",g:"84",o:true,t:"@1x"},"19":{p:1,n:"apple-icon.png",g:"77",t:"@1x"},"11":{p:1,n:"apple-icon-72x72.jpg",g:"69",o:true,t:"@1x"},"27":{p:1,n:"ms-icon-150x150.jpg",g:"85",o:true,t:"@1x"},"0":{p:1,n:"Logo.svg",g:"5",t:"image/svg+xml"},"12":{p:1,n:"apple-icon-76x76.jpg",g:"70",o:true,t:"@1x"},"1":{p:1,n:"Mail.svg",g:"8",t:"image/svg+xml"},"28":{p:1,n:"ms-icon-310x310.jpg",g:"86",o:true,t:"@1x"},"20":{p:1,n:"apple-touch-icon-precomposed.png",g:"78",t:"@1x"},"2":{p:1,n:"Twitter.svg",g:"9",t:"image/svg+xml"},"13":{p:1,n:"apple-icon-114x114.jpg",g:"71",o:true,t:"@1x"},"3":{p:1,n:"android-icon-36x36.jpg",g:"61",o:true,t:"@1x"},"21":{p:1,n:"favicon-16x16.jpg",g:"79",o:true,t:"@1x"},"14":{p:1,n:"apple-icon-120x120.jpg",g:"72",o:true,t:"@1x"},"4":{p:1,n:"android-icon-48x48.jpg",g:"62",o:true,t:"@1x"},"5":{p:1,n:"android-icon-72x72.jpg",g:"63",o:true,t:"@1x"},"15":{p:1,n:"apple-icon-144x144.jpg",g:"73",o:true,t:"@1x"},"22":{p:1,n:"favicon-32x32.jpg",g:"80",o:true,t:"@1x"},"6":{p:1,n:"android-icon-96x96.jpg",g:"64",o:true,t:"@1x"},"23":{p:1,n:"favicon-96x96.jpg",g:"81",o:true,t:"@1x"},"16":{p:1,n:"apple-icon-152x152.jpg",g:"74",o:true,t:"@1x"},"7":{p:1,n:"android-icon-144x144.jpg",g:"65",o:true,t:"@1x"},"8":{p:1,n:"android-icon-192x192.png",g:"66",t:"@1x"},"24":{p:1,n:"favicon.jpg",g:"82",o:true,t:"@1x"},"17":{p:1,n:"apple-icon-180x180.jpg",g:"75",o:true,t:"@1x"},"9":{p:1,n:"apple-icon-57x57.jpg",g:"67",o:true,t:"@1x"}},h,[],d,[{n:"Home",o:"18",X:[0]}],[{o:"22",A:{a:[{p:4,h:"58"}]},p:"600px",x:0,a:100,Z:568,cA:false,Y:320,b:100,c:"#DF3713",L:[],bY:1,d:320,U:{"94":{V:{Hover:"100",Active:"101","Main Timeline":"99"},W:"99",n:"Button"},"92":{V:{Hover:"97",Active:"98","Main Timeline":"96"},W:"96",n:"Button"}},T:{"99":{c:"94",z:0.15,i:"99",n:"Main Timeline",a:[{f:"h",y:0,z:0.11,i:"e",e:1,s:0,o:"95"},{f:"h",y:0,z:0.11,i:"cQ",e:1.1000000000000001,s:0,o:"95"},{y:0,i:"cR",s:1,z:0,o:"95",f:"h"},{f:"h",y:0.11,z:0.04,i:"cQ",e:1,s:1.1000000000000001,o:"95"},{y:0.11,i:"e",s:1,z:0,o:"95",f:"c"},{y:0.15,i:"cQ",s:1,z:0,o:"95",f:"c"}],f:30,b:[]},"97":{c:"92",z:0.05,i:"97",n:"Hover",a:[{f:"c",y:0,z:0.05,i:"e",e:0.80000000000000004,s:1,o:"93"},{y:0.05,i:"e",s:0.80000000000000004,z:0,o:"93",f:"c"}],f:30,b:[]},"101":{c:"94",z:0.05,i:"101",n:"Active",a:[{f:"c",y:0,z:0.05,i:"cQ",e:0.80000000000000004,s:1,o:"95"},{f:"c",y:0,z:0.05,i:"cR",e:0.80000000000000004,s:1,o:"95"},{y:0.05,i:"cR",s:0.80000000000000004,z:0,o:"95",f:"c"},{y:0.05,i:"cQ",s:0.80000000000000004,z:0,o:"95",f:"c"}],f:30,b:[]},"98":{c:"92",z:0.05,i:"98",n:"Active",a:[{f:"c",y:0,z:0.05,i:"cQ",e:0.80000000000000004,s:1,o:"93"},{f:"c",y:0,z:0.05,i:"cR",e:0.80000000000000004,s:1,o:"93"},{y:0.05,i:"cR",s:0.80000000000000004,z:0,o:"93",f:"c"},{y:0.05,i:"cQ",s:0.80000000000000004,z:0,o:"93",f:"c"}],f:30,b:[]},kTimelineDefaultIdentifier:{i:"kTimelineDefaultIdentifier",n:"Main Timeline",z:0.15,b:[{D:0.15,H:true,E:true,z:false,F:0,G:0,C:0,b:"96"},{D:0.15,H:true,E:true,z:false,F:0,G:0,C:0,b:"99"}],a:[{f:"h",y:0,z:0.1,i:"e",e:1,s:0,o:"88"},{f:"h",y:0,z:0.1,i:"b",e:63,s:113,o:"88"},{y:0.1,i:"e",s:1,z:0,o:"88",f:"c"},{y:0.1,i:"b",s:63,z:0,o:"88",f:"c"}],f:30},"100":{c:"94",z:0.05,i:"100",n:"Hover",a:[{f:"c",y:0,z:0.05,i:"e",e:0.80000000000000004,s:1,o:"95"},{y:0.05,i:"e",s:0.80000000000000004,z:0,o:"95",f:"c"}],f:30,b:[]},"96":{c:"92",z:0.15,i:"96",n:"Main Timeline",a:[{f:"h",y:0,z:0.11,i:"e",e:1,s:0,o:"93"},{f:"h",y:0,z:0.11,i:"cQ",e:1.1000000000000001,s:0,o:"93"},{y:0,i:"cR",s:1,z:0,o:"93",f:"h"},{f:"h",y:0.11,z:0.04,i:"cQ",e:1,s:1.1000000000000001,o:"93"},{y:0.11,i:"e",s:1,z:0,o:"93",f:"c"},{y:0.15,i:"cQ",s:1,z:0,o:"93",f:"c"}],f:30,b:[]}},bZ:180,O:["90","91","93","92","95","94","88","89","87"],v:{"91":{cN:"none",h:"8",p:"no-repeat",x:"visible",a:171,q:"100% 100%",b:266,j:"absolute",bF:"89",z:6,k:"div",c:27,d:20,r:"inline",aP:"auto",bD:"none"},"94":{x:"visible",bS:0,a:161,b:252,j:"absolute",bF:"89",aA:{a:[{p:6,n:"Dear Friends,",l:"company@handwhittled.com",m:"Hello"}]},k:"div",z:3,d:48,c:48,bY:1,aP:"pointer",aG:"Send us a message",bZ:180,cA:false,bX:false,cV:[],bD:"none"},"89":{aV:0,x:"visible",bS:343,a:0,b:124,j:"absolute",bF:"87",z:1,k:"div",c:300,aT:0,d:300,aS:0,aU:0},"92":{x:"visible",bS:0,a:92,b:252,j:"absolute",bF:"89",aA:{a:[{p:5,j:"http://twitter.com/handwhittled",k:true}]},k:"div",z:4,d:48,c:48,bY:1,aP:"pointer",aG:"Follow us on Twitter",bZ:180,cA:false,bX:false,cV:[],bD:"none"},"87":{aU:0,c:300,bS:63,d:548,I:"None",aV:0,J:"None",K:"None",g:"#FFFFFF",L:"None",M:0,N:0,A:"#D6D6D6",x:"visible",j:"absolute",B:"#D6D6D6",k:"div",O:0,C:"#D6D6D6",z:1,aS:0,D:"#D6D6D6",P:0,aT:0,a:10,b:10},"95":{c:48,aE:{a:[{b:"101",p:3,z:true,symbolOid:"43"}]},bS:0,d:48,e:0,cQ:0,cR:1,g:"#0096FF",aP:"pointer",bF:"94",aI:32,j:"absolute",x:"visible",k:"div",aJ:32,aB:{a:[{b:"101",p:3,z:false,symbolOid:"43"}]},z:4,aK:32,aC:{a:[{b:"100",p:3,z:true,symbolOid:"43"}]},a:0,aD:{a:[{b:"100",p:3,z:false,symbolOid:"43"}]},aL:32,b:0},"90":{cN:"none",h:"9",p:"no-repeat",x:"visible",a:103,q:"100% 100%",b:265,j:"absolute",bS:0,z:7,k:"div",bF:"89",d:21,c:25,cQ:1,aP:"auto",r:"inline",cR:1,bD:"none"},"93":{c:48,aE:{a:[{b:"98",p:3,z:true,symbolOid:"43"}]},bS:0,d:48,e:0,cQ:0,cR:1,g:"#0096FF",aP:"pointer",bF:"92",aI:32,j:"absolute",x:"visible",k:"div",aJ:32,aB:{a:[{b:"98",p:3,z:false,symbolOid:"43"}]},z:4,aK:32,aC:{a:[{b:"97",p:3,z:true,symbolOid:"43"}]},a:0,aD:{a:[{b:"97",p:3,z:false,symbolOid:"43"}]},aL:32,b:0},"88":{h:"5",p:"no-repeat",x:"visible",bS:0,a:44,q:"100% 100%",j:"absolute",b:113,z:1,k:"div",bF:"89",d:134,c:211,r:"inline",e:0,aG:"Hand Whittled, LLC"}}}],{},g,{h:[[0,0,0.175,0.885,0.32,1.25,1,1]]},null,false,false,-1,true,false,false,true);f[c]=a.API;document.getElementById(e).setAttribute("HYP_dn",
-c);a.z_o(this.body)})();})();
+					<a class="dim f3-l f4 fw4 mb3 no-underline" href="mailto:company@handwhittled.com">company@handwhittled.com</a>
+					<a class="dim f3-l f4 fw4 no-underline" href="tel:2488026433">248/802 6433</a>
 
-	</script>
-	
+					<h3 class="aptifer f2-l f3 fw4 mb0 mt5">Joe &amp; Christina Dakroub</h3>
+				</div>
+			</section>
 
+			<section class="bg-dark-purple sticky top-0">
+				<div class="center flex flex-column gray items-center justify-center pa4 vh-100">
+					<span class="b--red ba bg-gray br-100 bw2 f-headline flex h4 items-center justify-center lh-solid overflow-hidden w4">🤡</span>
+					<p class="aptifer f2-l f3 lh-title measure-narrow tc">&ldquo;Hand Whittled took my project seriously and treated me with the utmost respect. That&rsquo;s nice.&rdquo;</p>
+				</div>
+			</section>
 
-	<!-- text content for search engines: -->
+			<section class="b--red bb bg-gray bt bw2 relative z-1" id="services">
+				<div class="center flex flex-column items-start justify-center min-vh-100 mw6 mw7-l ph4 pv5 pv6-ns">
+					<h1 class="aptifer f-subheadline-l f1-m f2 lh-title mt3 mb3">Here to serve</h1>
 
-	<div style="display:none">
+					<p class="f2-ns f3 lh-copy mb4 measure">We create and manage designs, websites, applications and digital projects of all shapes and sizes.</p>
 
+					<p class="f3-ns f4 lh-copy mb5 measure">We've done work for diverse clients like a <a class="dim" href="https://kindredspiritssamplers.com/">needlepoint guild</a> from Northville, a <a class="dim" href="https://www.vectorform.com/">major tech inventor</a> in Royal Oak, a <a class="dim" href="http://www.dubspot.com/">leading electronic music school</a> from New York and Los Angeles, a <a class="dim" href="http://www.brilliantchemistry.com/">Tech248 Talent Partner</a>, and most recently, a renowned <a class="dim" href="https://stair.com/">custom luxury stair builder</a> from Ohio.</p>
 
-	</div>
+					<dl class="b--dark-purple bb bt bw2 f3-ns f4 ma0 mb4 pv5">
+						<dt class="lh-copy">Need a web or mobile application?</dt>
+						<dd class="aptifer lh-copy ml0 mb4">✅ We do that a lot.</dd>
 
-	<!-- end text content: -->
+						<dt class="lh-copy">Need sound or music for your game?</dt>
+						<dd class="aptifer lh-copy ml0 mb4">✅ We did that recently.</dd>
 
+						<dt class="lh-copy">Need a website moved or an SSL certificate installed?</dt>
+						<dd class="aptifer lh-copy ml0 mb4">✅ We did that last week for a client.</dd>
+
+						<dt class="lh-copy">Need to setup a WordPress blog?</dt>
+						<dd class="aptifer lh-copy ml0 mb4">✅ We did that a week ago.</dd>
+
+						<dt class="lh-copy">Need a quick prototype to test out an idea?</dt>
+						<dd class="aptifer lh-copy ml0 mb4">✅ We are ready and waiting.</dd>
+
+						<dt class="lh-copy">Need a logo, invitations or business card?</dt>
+						<dd class="aptifer lh-copy ml0 mb4">✅ We love to do that.</dd>
+
+						<dt class="lh-copy">Need to run your next big idea by someone?</dt>
+						<dd class="aptifer lh-copy ml0 mb4">✅ We do that too.</dd>
+					</dl>
+
+					<p class="f3-ns f4 lh-copy mb5 measure">These are just some of the services we perform for people everyday. Please don&lsquo;t hesitate to <a class="dim" href="#contact">get in touch</a> so we can talk about your special project.</p>
+				</div>
+			</section>
+
+			<section class="bg-dark-purple sticky top-0">
+				<div class="center flex flex-column gray items-center justify-center pa4 vh-100">
+					<span class="b--red ba bg-gray br-100 bw2 f-headline flex h4 items-center justify-center lh-solid overflow-hidden w4">🤦🏼‍♂️</span>
+					<p class="aptifer f2-l f3 lh-title measure-narrow tc">&ldquo;Other companies have been a total disaster to work with. Hand Whittled made it easy and fun. They were patient and treated me like a person.&rdquo;</p>
+				</div>
+			</section>
+
+			<section class="b--red bb bg-gray bt bw2 relative z-1" id="work">
+				<div class="center flex flex-column items-start justify-center min-vh-100 mw6 mw7-l ph4 pv5 pv6-ns">
+					<h1 class="aptifer f-subheadline-l f1-m f2 lh-title mt3 mb3">Recent Projects</h1>
+
+					<p class="f2-ns f3 lh-copy mb4 measure">Every project is unique and comes with different goals and challenges; there is no one-size-fits-all solution.</p>
+
+					<p class="b--dark-purple bb bw2 f3-ns f4 lh-copy mb3 measure pb5">Here are some of the things we&lsquo;ve been working on for our clients and ourselves&hellip;<span class="aptifer f3-ns f4">take a l⦿⦿k.</span></p>
+
+					<article class="cf mb5 pt5 w-100">
+						<div class="b--red ba bw2 fl-l h5 mb0-l mb3 ml-auto ml0-l mr-auto mr4-l overflow-hidden shape w5">
+							<div class="br-100 h-100 overflow-hidden relative w-100">
+								<img alt="The Great Lakes Stair &amp; Millwork Company website" class="sample" src="/images/glsm.jpg">
+							</div>
+						</div>
+
+						<h2 class="aptifer f4 lh-title ma0 mb3">The Great Lakes Stair &amp; Millwork Company</h2>
+						<p class="lh-copy">You caught us with our pants down here as this is in in-progress redesign and development for the Great Lakes Stair &amp; Millwork Company. This version focuses on being mobile-friendly, lightweight, modern and fast as, well, fast! We are building this with Processwire CMS, Tachyons CSS and vanilla JavaScript. Easy-peasy. Should launch in April 2018.</p>
+
+						<a class="fw7 dim link ttu" href="https://gladmin.webfactional.com/">Visit Site</a>
+					</article>
+
+					<article class="cf mb5 w-100">
+						<div class="b--red ba bw2 fr-l h5 mb0-l mb3 ml-auto mr0-l mr-auto ml4-l overflow-hidden shape w5">
+							<div class="br-100 h-100 overflow-hidden relative w-100">
+								<img alt="Timothy McAllister website" class="sample" src="/images/tm.jpg">
+							</div>
+						</div>
+						<h2 class="aptifer f4 lh-title ma0 mb3">Timothy McAllister, Saxophonist</h2>
+						<p class="lh-copy">This here is a concept we created for the world-renowned concert saxophonist and Associate Professor of Saxophone at the University of Michigan, Timothy McAllister. He decided to stick with his current site (which we also created), so how can we complain? We built this prototype super-modern with GatsbyJS, React, Modular CSS and hosted it on Netlify.</p>
+
+						<a class="fw7 dim link ttu" href="https://timothymcallister.netlify.com/">Visit Site</a>
+					</article>
+
+					<article class="cf mb5 w-100">
+						<div class="b--red ba bw2 fl-l h5 mb0-l mb3 ml-auto ml0-l mr-auto mr4-l overflow-hidden shape w5">
+							<div class="br-100 h-100 overflow-hidden relative w-100">
+								<img alt="Kindred Spirits Sampler Guild website" class="s-slow sample" src="/images/kssg.jpg">
+							</div>
+						</div>
+
+						<h2 class="aptifer f4 lh-title ma0 mb3">Kindred Spirits Sampler Guild</h2>
+						<p class="lh-copy">This lil one-pager is as charming as can be. Our client needed a simple webpage to promote their needlepoint guild meeting place and time as well as membership details. We put this together in a couple of days and enjoyed every minute of it. We built this one old-school with pure HTML, CSS and hosted it on Netlify.</p>
+
+						<a class="fw7 dim link ttu" href="https://kindredspiritssamplers.com/">Visit Site</a>
+					</article>
+
+					<article class="cf mb5 w-100">
+						<div class="b--red ba bw2 fr-l h5 mb0-l mb3 ml-auto mr0-l mr-auto ml4-l overflow-hidden shape w5">
+							<div class="br-100 h-100 overflow-hidden relative w-100">
+								<img alt="Joe Dakroub's website" class="sample" src="/images/dakroub.me.jpg">
+							</div>
+						</div>
+
+						<h2 class="aptifer f4 lh-title ma0 mb3">Joe Dakroub</h2>
+						<p class="lh-copy">Personal website of Joe Dakroub; designer, developer and co-owner here at Hand Whittled. Here he explores original pure CSS designs, retro tech, books and sound from his childhood. He builds this one with Jekyll, Tachyons CSS and hosts it on Netlify.</p>
+
+						<a class="fw7 dim link ttu" href="https://dakroub.me/">Visit Site</a>
+					</article>
+				</div>
+			</section>
+
+			<section class="bg-dark-purple sticky top-0">
+				<div class="center flex flex-column gray items-center justify-center pa4 vh-100">
+					<span class="b--red ba bg-gray br-100 bw2 f-headline flex h4 items-center justify-center lh-solid overflow-hidden w4">👩🏿‍🎤</span>
+					<p class="aptifer f2-l f3 lh-title measure-narrow tc">&ldquo;This guy and gal are next-level creativity&hellip;I mean, like, I should know, just look at my hair.&rdquo;</p>
+				</div>
+			</section>
+
+			<section class="b--red bb bg-gray bt bw2 mb0 relative z-1" id="about">
+				<div class="center flex flex-column items-start justify-center min-vh-100 mw6 mw7-l ph4 pv5 pv6-ns">
+					<h1 class="aptifer f-subheadline-l f1-m f2 lh-title mt3 mb3">We are&hellip;</h1>
+
+					<p class="f2-ns f3 lh-copy mb4 measure">&hellip;a husband and wife team with over 35 years of combined experience and we have the battle scars to prove it! 💗</p>
+
+					<p class="b--dark-purple bb bw2 f3-ns f4 lh-copy mb3 pb5 w-100">Our experience is diverse ranging from automotive, finance, healthcare, education, entertainment, advertising, technology, real estate and manufacturing. We love to learn so, <a class="dim" href="#contact">get in touch</a>, and we can learn together.</p>
+
+					<article class="cf mb5 pt5 w-100">
+						<div class="b--red ba bw2 fl-l h5 mb0-l mb3 ml-auto ml0-l mr-auto mr4-l overflow-hidden shape w5">
+							<div class="br-100 h-100 overflow-hidden relative w-100">
+								<img alt="Christina Dakroub (Hanna)" src="/images/christina.png">
+							</div>
+						</div>
+						<h2 class="aptifer f4 lh-title ma0 mb3">Christina Dakroub (Hanna)</h2>
+						<p class="lh-copy">Growing up with a synthesizer out of the womb, Christina creates original music and sounds, provides sound business guidance and will <u>always get the job done</u>. She has over 15 years of development, business analysis and audio production skills serving Quicken Loans, Covisint, MOTOR, Vectorform and Dubspot.</p>
+					</article>
+
+					<article class="cf mb5 w-100">
+						<div class="b--red ba bw2 fr-l h5 mb0-l mb3 ml-auto mr0-l mr-auto ml4-l overflow-hidden shape w5">
+							<div class="br-100 h-100 overflow-hidden relative w-100">
+								<img alt="Joe Dakroub" src="/images/joe.png">
+							</div>
+						</div>
+
+						<h2 class="aptifer f4 lh-title ma0 mb3">Joe Dakroub</h2>
+						<p class="lh-copy">Since the age of 10 when he got his first computer, Joe has been creating digital projects, websites and applications with an eye on simplicity and a <u>focus on solving problems</u>. He has over 20 years of development and design experience serving Quicken Loans, Organic, Team Detroit, MOTOR, Tradeweb, Dubspot and Brilliant Chemistry.</p>
+					</article>
+
+				</div>
+			</section>
+
+			<section class="bg-dark-purple sticky top-0">
+				<div class="center flex flex-column gray items-center justify-center pa4 vh-100">
+					<span class="b--red ba bg-gray br-100 bw2 f-headline flex h4 items-center justify-center lh-solid overflow-hidden w4">🤷🏽‍♀️</span>
+					<p class="aptifer f2-l f3 lh-title measure-narrow tc">&ldquo;Of all the companies I know, Hand Whittled is one of them&hellip;&rdquo;</p>
+				</div>
+			</section>
+
+			<section class="b--red bb bg-gray bt bw2 mb0 relative z-1" id="about">
+				<div class="center f2 flex flex-column items-center justify-center min-vh-100 mw6 mw7-l ph4 pv5 pv6-ns">
+					<h1 class="aptifer f-subheadline-l f1-m f2 lh-title mt3 mb3">Thanks, bye.</h1>
+
+					<span class="b--red ba bg-gray br-100 bw2 f-headline flex h4 items-center justify-center lh-solid mb4 overflow-hidden w4 wave">👋</span>
+
+					<a class="f3 dim link ttu" href="#contact">Get in touch</a>
+				</div>
+			</section>
+		</main>
+
+		<script src="/js/smoothscroll.js"></script>
+		<script src="/js/main.js"></script>
   </body>
 </html>
