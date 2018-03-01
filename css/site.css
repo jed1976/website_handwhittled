@@ -66,6 +66,12 @@ a:visited {
 }
 
 /* Animations */
+input, textarea {
+  transition: all 320ms ease;
+}
+
+input:focus, textarea:focus { border-color: var(--red) !important; }
+
 #logo {
   opacity: 0;
   transform: rotateZ(135deg) scale(0) translateY(-100vh);
