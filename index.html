@@ -41,7 +41,7 @@
 				</div>
 			</section>
 
-			<section class="b--red bb bg-gray bt bw2 relative z-1" id="contact">
+			<section class="b--red bb bg-gray bt bw2 relative z-1" id="card">
 				<div class="center flex flex-column items-start justify-center min-vh-100 mw6 mw7-l ph4 pv5 pv6-ns">
 					<h1 class="aptifer f-subheadline-l f1-m f2 lh-title mt3 mb3">Hand Whittled</h1>
 					<h2 class="f2-l f3 fw4 mb5 mt0">Design, Development &amp; Sound</h2>
@@ -209,13 +209,22 @@
 				</div>
 			</section>
 
-			<section class="b--red bb bg-gray bt bw2 mb0 relative z-1" id="about">
-				<div class="center f2 flex flex-column items-center justify-center min-vh-100 mw6 mw7-l ph4 pv5 pv6-ns">
-					<h1 class="aptifer f-subheadline-l f1-m f2 lh-title mt3 mb3">Thanks, bye.</h1>
+			<section class="b--red bb bg-gray bt bw2 mb0 relative z-1" id="contact">
+				<div class="center flex flex-column items-center justify-center min-vh-100 mw6 mw7-l ph4 pv5 pv6-ns">
+					<h1 class="aptifer f-subheadline-l f1-m f2 lh-title mt3 mb3">Let&rsquo;s talk.</h1>
 
-					<span class="b--red ba bg-gray br-100 bw2 f-headline flex h4 items-center justify-center lh-solid mb4 overflow-hidden w4 wave">👋</span>
+					<form action="/thanks/" class="flex flex-column pv4 w-two-thirds-ns w-100" data-netlify="true" name="contact" method="POST">
+						<input class="aptifer b--dark-purple bb bg-transparent bl-0 br-0 br0 bt-0 dark-purple f3 mb2 outline-0 pv2" id="field-name" name="name" required type="text">
+						<label class="f4 mb4" for="field-name">Name <span class="f5 v-mid">🔴</span></label>
 
-					<a class="f3 dim link ttu" href="#contact">Get in touch</a>
+						<input class="aptifer b--dark-purple bb bg-transparent bl-0 br-0 br0 bt-0 dark-purple f3 mb2 outline-0 pv2" id="field-email" name="email" required type="email">
+						<label class="f4 mb4" for="field-email">Email <span class="f5 v-mid">🔴</span></label>
+
+						<textarea class="aptifer b--dark-purple bb bg-transparent bl-0 br-0 br0 bt-0 dark-purple f3 mb2 outline-0 pv2" id="field-message" name="message" rows="3" style="resize: none"></textarea>
+						<label class="f4 mb5" for="field-message">Message</label>
+
+						<button class="bg-dark-purple bn br2 din pa3 ttu white" type="submit">Send</button>
+					</form>
 				</div>
 			</section>
 		</main>
