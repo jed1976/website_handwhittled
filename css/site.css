@@ -35,6 +35,11 @@
 .bg-gray { background-color: var(--gray); }
 .gray { color: var(--gray); }
 
+/* Base */
+html { -webkit-tap-highlight-color: transparent; }
+::selection { background-color: var(--yellow); }
+::-moz-selection { background-color: var(--yellow); }
+
 /* Fonts */
 @font-face {
   font-family: "Aptifer Slab LT W04 Black";
