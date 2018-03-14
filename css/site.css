@@ -84,22 +84,26 @@ input:focus, textarea:focus { border-color: var(--red) !important; }
   transition-delay: 320ms;
 }
 
-.sample {
+.sample,
+.sample-horizontal {
   animation-direction: alternate;
-  animation-duration: 12s;
+  animation-duration: 24s;
   animation-iteration-count: infinite;
-  animation-name: showcase;
-  animation-timing-function: ease;
+  animation-timing-function: ease-in-out;
   transform-origin: 0 0;
 }
 
-.sample.s-slow { animation-duration: 20s; }
+.sample { animation-name: showcase; }
 
-section article:nth-of-type(odd) .sample {
+.sample-horizontal { animation-name: showcase-horizontal; }
+
+section article:nth-of-type(odd) .sample,
+section article:nth-of-type(odd) .sample-horizontal {
   animation-delay: 2s;
 }
 
-section article:nth-of-type(even) .sample {
+section article:nth-of-type(even) .sample,
+section article:nth-of-type(even) .sample-horizontal {
   animation-delay: 4s;
 }
 
@@ -111,6 +115,11 @@ section article:nth-of-type(even) .sample {
 @keyframes showcase {
   0%, 10% { transform: translateY(0); }
   90%, 100% { transform: translateY(calc(-100% + 16rem)); }
+}
+
+@keyframes showcase-horizontal {
+  0%, 10% { transform: translateX(0); }
+  90%, 100% { transform: translateX(calc(-100% + 16rem)); }
 }
 
 
